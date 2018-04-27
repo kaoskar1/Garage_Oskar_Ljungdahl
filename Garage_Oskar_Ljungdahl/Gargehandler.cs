@@ -8,5 +8,7 @@ namespace Garage_Oskar_Ljungdahl
 {
     class Gargehandler
     {
+
+
     }
 }
