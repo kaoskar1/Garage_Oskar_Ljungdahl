@@ -51,8 +51,17 @@ namespace Garage_Oskar_Ljungdahl
             set { typeOfGas = value; }
         }
 
+        private string numberPlate;
 
-        public Vehicle(int wheels, int seats, int horsePower, int gasTank, string typeOfGas)
+        public string NumberPlate
+        {
+            get { return numberPlate; }
+            set { numberPlate = value; }
+        }
+
+
+
+        public Vehicle(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string numberPlate)
         {
 
             // propertys
@@ -61,6 +70,7 @@ namespace Garage_Oskar_Ljungdahl
             HorsePower = horsePower;
             GasTank = gasTank;
             TypeOfGas = typeOfGas;
+            NumberPlate = numberPlate;
         }
     }
 }

@@ -13,7 +13,8 @@ namespace Garage_Oskar_Ljungdahl
         public bool Rack { get; set; }
 
 
-        public Bikes(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, bool motorDriven, bool rack, string numberPlate) : base(wheels, seats, horsePower, gasTank, typeOfGas)
+        public Bikes(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string numberPlate, bool motorDriven, bool rack) : base(wheels, seats, horsePower, gasTank, typeOfGas, numberPlate)
+            
         {
             MotorDriven = motorDriven;
             Rack = rack;

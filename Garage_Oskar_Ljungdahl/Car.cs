@@ -11,11 +11,11 @@ namespace Garage_Oskar_Ljungdahl
         {
         public string TypeOfCar { get; set; }
         public string CarBrand { get; set; }
-        public string NumberPlate { get; set; }
+      
 
 
 
-        public Car(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string typeOfCar, string carBrand, string numberPlate) : base(wheels, seats, horsePower, gasTank, typeOfGas)
+        public Car(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string numberPlate, string typeOfCar, string carBrand) : base(wheels, seats, horsePower, gasTank, typeOfGas, numberPlate)
         {
             TypeOfCar = typeOfCar;
             CarBrand = carBrand;

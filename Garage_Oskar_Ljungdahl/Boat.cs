@@ -12,7 +12,7 @@ namespace Garage_Oskar_Ljungdahl
         public bool Sailing { get; set; }
 
 
-        public Boat(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string madeOf, bool sailing):  base(wheels, seats, horsePower, gasTank, typeOfGas)
+        public Boat(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string numberPlate, string madeOf, bool sailing):  base(wheels, seats, horsePower, gasTank, typeOfGas, numberPlate)
         {
             MadeOf = madeOf;
             Sailing = sailing;

@@ -15,7 +15,7 @@ namespace Garage_Oskar_Ljungdahl
 
 
 
-        public Airplane(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string planeType, bool weaponMode, int miselCount, int machineGun) : base(wheels, seats, horsePower, gasTank, typeOfGas)
+        public Airplane(int wheels, int seats, int horsePower, int gasTank, string typeOfGas, string numberPlate, string planeType, bool weaponMode, int miselCount, int machineGun) : base(wheels, seats, horsePower, gasTank, typeOfGas, numberPlate)
         {
             PlaneType = planeType;
             WeaponMode = weaponMode;
